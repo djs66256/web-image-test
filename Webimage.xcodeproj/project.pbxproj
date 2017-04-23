@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6572F2641EA91B620042EF8C /* wk_file.html in Resources */ = {isa = PBXBuildFile; fileRef = 6572F2631EA91B620042EF8C /* wk_file.html */; };
+		6572F2661EA91F400042EF8C /* wk_image.html in Resources */ = {isa = PBXBuildFile; fileRef = 6572F2651EA91F400042EF8C /* wk_image.html */; };
+		6572F2691EACDB860042EF8C /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572F2681EACDB860042EF8C /* WKWebViewController.m */; };
 		65CF7DFE1EA6750B00091FF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7DFD1EA6750B00091FF6 /* main.m */; };
 		65CF7E011EA6750B00091FF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E001EA6750B00091FF6 /* AppDelegate.m */; };
-		65CF7E041EA6750B00091FF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E031EA6750B00091FF6 /* ViewController.m */; };
-		65CF7E071EA6750B00091FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CF7E051EA6750B00091FF6 /* Main.storyboard */; };
 		65CF7E091EA6750B00091FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CF7E081EA6750B00091FF6 /* Assets.xcassets */; };
 		65CF7E0C1EA6750B00091FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CF7E0A1EA6750B00091FF6 /* LaunchScreen.storyboard */; };
+		65CF7E151EA6753000091FF6 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E141EA6753000091FF6 /* MainTableViewController.m */; };
+		65CF7E181EA6780C00091FF6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E171EA6780C00091FF6 /* BaseViewController.m */; };
+		65CF7E1A1EA6794600091FF6 /* baidu_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CF7E191EA6794600091FF6 /* baidu_logo.png */; };
+		65CF7E1D1EA67EE600091FF6 /* ImageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E1C1EA67EE600091FF6 /* ImageURLProtocol.m */; };
+		65CF7E201EA6806400091FF6 /* UIWebProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E1F1EA6806400091FF6 /* UIWebProtocolViewController.m */; };
+		65CF7E231EA6843E00091FF6 /* UIWebFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E221EA6843E00091FF6 /* UIWebFileViewController.m */; };
+		65CF7E261EA6844900091FF6 /* WKWebFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E251EA6844900091FF6 /* WKWebFileViewController.m */; };
+		65CF7E291EA6845C00091FF6 /* WKWebProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CF7E281EA6845C00091FF6 /* WKWebProtocolViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6572F2631EA91B620042EF8C /* wk_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wk_file.html; sourceTree = "<group>"; };
+		6572F2651EA91F400042EF8C /* wk_image.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wk_image.html; sourceTree = "<group>"; };
+		6572F2671EACDB860042EF8C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		6572F2681EACDB860042EF8C /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 		65CF7DF91EA6750B00091FF6 /* Webimage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webimage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CF7DFD1EA6750B00091FF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65CF7DFF1EA6750B00091FF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65CF7E001EA6750B00091FF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		65CF7E021EA6750B00091FF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		65CF7E031EA6750B00091FF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		65CF7E061EA6750B00091FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65CF7E081EA6750B00091FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65CF7E0B1EA6750B00091FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65CF7E0D1EA6750B00091FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CF7E131EA6753000091FF6 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		65CF7E141EA6753000091FF6 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		65CF7E161EA6780C00091FF6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		65CF7E171EA6780C00091FF6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		65CF7E191EA6794600091FF6 /* baidu_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baidu_logo.png; sourceTree = "<group>"; };
+		65CF7E1B1EA67EE600091FF6 /* ImageURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageURLProtocol.h; sourceTree = "<group>"; };
+		65CF7E1C1EA67EE600091FF6 /* ImageURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageURLProtocol.m; sourceTree = "<group>"; };
+		65CF7E1E1EA6806400091FF6 /* UIWebProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebProtocolViewController.h; sourceTree = "<group>"; };
+		65CF7E1F1EA6806400091FF6 /* UIWebProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebProtocolViewController.m; sourceTree = "<group>"; };
+		65CF7E211EA6843E00091FF6 /* UIWebFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebFileViewController.h; sourceTree = "<group>"; };
+		65CF7E221EA6843E00091FF6 /* UIWebFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebFileViewController.m; sourceTree = "<group>"; };
+		65CF7E241EA6844900091FF6 /* WKWebFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebFileViewController.h; sourceTree = "<group>"; };
+		65CF7E251EA6844900091FF6 /* WKWebFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebFileViewController.m; sourceTree = "<group>"; };
+		65CF7E271EA6845C00091FF6 /* WKWebProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebProtocolViewController.h; sourceTree = "<group>"; };
+		65CF7E281EA6845C00091FF6 /* WKWebProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebProtocolViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +85,25 @@
 			children = (
 				65CF7DFF1EA6750B00091FF6 /* AppDelegate.h */,
 				65CF7E001EA6750B00091FF6 /* AppDelegate.m */,
-				65CF7E021EA6750B00091FF6 /* ViewController.h */,
-				65CF7E031EA6750B00091FF6 /* ViewController.m */,
-				65CF7E051EA6750B00091FF6 /* Main.storyboard */,
+				65CF7E131EA6753000091FF6 /* MainTableViewController.h */,
+				65CF7E141EA6753000091FF6 /* MainTableViewController.m */,
+				65CF7E161EA6780C00091FF6 /* BaseViewController.h */,
+				65CF7E171EA6780C00091FF6 /* BaseViewController.m */,
+				65CF7E1E1EA6806400091FF6 /* UIWebProtocolViewController.h */,
+				65CF7E1F1EA6806400091FF6 /* UIWebProtocolViewController.m */,
+				65CF7E271EA6845C00091FF6 /* WKWebProtocolViewController.h */,
+				65CF7E281EA6845C00091FF6 /* WKWebProtocolViewController.m */,
+				65CF7E211EA6843E00091FF6 /* UIWebFileViewController.h */,
+				65CF7E221EA6843E00091FF6 /* UIWebFileViewController.m */,
+				65CF7E241EA6844900091FF6 /* WKWebFileViewController.h */,
+				65CF7E251EA6844900091FF6 /* WKWebFileViewController.m */,
+				65CF7E1B1EA67EE600091FF6 /* ImageURLProtocol.h */,
+				65CF7E1C1EA67EE600091FF6 /* ImageURLProtocol.m */,
+				6572F2671EACDB860042EF8C /* WKWebViewController.h */,
+				6572F2681EACDB860042EF8C /* WKWebViewController.m */,
+				6572F2631EA91B620042EF8C /* wk_file.html */,
+				6572F2651EA91F400042EF8C /* wk_image.html */,
+				65CF7E191EA6794600091FF6 /* baidu_logo.png */,
 				65CF7E081EA6750B00091FF6 /* Assets.xcassets */,
 				65CF7E0A1EA6750B00091FF6 /* LaunchScreen.storyboard */,
 				65CF7E0D1EA6750B00091FF6 /* Info.plist */,
@@ -137,9 +178,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6572F2641EA91B620042EF8C /* wk_file.html in Resources */,
+				6572F2661EA91F400042EF8C /* wk_image.html in Resources */,
 				65CF7E0C1EA6750B00091FF6 /* LaunchScreen.storyboard in Resources */,
 				65CF7E091EA6750B00091FF6 /* Assets.xcassets in Resources */,
-				65CF7E071EA6750B00091FF6 /* Main.storyboard in Resources */,
+				65CF7E1A1EA6794600091FF6 /* baidu_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +193,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CF7E041EA6750B00091FF6 /* ViewController.m in Sources */,
+				65CF7E151EA6753000091FF6 /* MainTableViewController.m in Sources */,
+				65CF7E181EA6780C00091FF6 /* BaseViewController.m in Sources */,
+				65CF7E231EA6843E00091FF6 /* UIWebFileViewController.m in Sources */,
+				65CF7E261EA6844900091FF6 /* WKWebFileViewController.m in Sources */,
 				65CF7E011EA6750B00091FF6 /* AppDelegate.m in Sources */,
+				6572F2691EACDB860042EF8C /* WKWebViewController.m in Sources */,
+				65CF7E201EA6806400091FF6 /* UIWebProtocolViewController.m in Sources */,
+				65CF7E1D1EA67EE600091FF6 /* ImageURLProtocol.m in Sources */,
 				65CF7DFE1EA6750B00091FF6 /* main.m in Sources */,
+				65CF7E291EA6845C00091FF6 /* WKWebProtocolViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65CF7E051EA6750B00091FF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65CF7E061EA6750B00091FF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		65CF7E0A1EA6750B00091FF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -309,6 +351,7 @@
 				65CF7E121EA6750B00091FF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
